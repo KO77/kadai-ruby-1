@@ -1,9 +1,5 @@
-Myouzi = "川部"
-Namae = "航大"
-Nenrei = 24
-Toshi = "歳"
-Kanshi = "です。"
+myozi = "川部"
+namae = "航大"
+nenrei = 24
 
-Zikosyokai = Myouzi + Namae + Kanshi + Nenrei.to_s + Toshi + Kanshi
-
-puts Zikosyokai
+puts myozi + namae + "です。" + nenrei.to_s + "歳です。"
